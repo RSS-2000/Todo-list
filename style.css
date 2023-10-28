@@ -1,11 +1,13 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(76, 168, 0);
+    background-image: url(./image/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
-    background-color: rgba(0, 0, 0, 0.481);
+    background-color: rgba(0, 0, 0, 0.696);
     height: 100vh;
     margin: 30px;
     border: 2px solid rgb(7, 7, 7);
@@ -15,7 +17,7 @@ body {
 
 h2 {
     text-align: center;
-    color:white;
+    color: white;
     text-shadow: 2px 2px 3px black;
 }
 
@@ -23,6 +25,7 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
 #inputText {
     padding: 5px;
     border-radius: 10px;
